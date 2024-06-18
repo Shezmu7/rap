@@ -1,0 +1,129 @@
+body{
+    background-color: #2b2d30;
+    height: 100%;
+    margin: 0
+}
+
+
+.col-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+}
+
+.col-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+}
+
+.col-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+.col-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.col-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}
+
+.col-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+
+.col-9 {
+    flex: 0 0 auto;
+    width: 75%;
+}
+
+.col-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+}
+
+.col-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+}
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+
+h2{
+    text-align: center;
+    width: 100%;
+    font-family: "agency fb", sans-serif;
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    background-color: #58151c;
+    z-index: 1000;
+    position: relative;
+    margin: 0;
+}
+
+
+.fondo-especial {
+    background-image: url('assets/image/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+
+.fondo-1 {
+    width: 100%;
+    height: 500px;
+    background-image: url('assets/image/fondo2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.columna-color {
+    background-color: rgba(0, 0, 255, 0.5); /* Fondo azul con transparencia */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card {
+    margin: 15px;
+    border-radius: 15px;
+    flex: 1;
+    min-width: 250px;
+}
+
+.card-img-top {
+    border-radius: 15px 15px 0 0;
+}
+
+h7 {
+    text-align: center;
+    font-family: "agency fb", sans-serif;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    margin: 0;
+    padding: 5px;
+}
